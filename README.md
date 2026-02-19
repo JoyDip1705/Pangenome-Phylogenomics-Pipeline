@@ -23,21 +23,27 @@ Place your NCBI genome files (.fna) in a folder named genomes/.
 
 Step 2: Clean FASTA Headers:
 Simplify headers for anvi'o compatibility.
+    
     • run clean_header.sh script
 
 Step 3: Create Contigs Databases:
+    
     • run contig_db.sh script
 
 Step 4: Gene Annotation:
+    
     • run annotation.sh script
 
 Step 5: Pangenome, Presence/Absence & Matrix Generation and Visualization:
+    
     • run pangenome.sh script
 
 Summary Statistics & Heatmap:
+    
     • Run python summary.py for core/accessory counts and python heatmap.py to generate pangenome_heatmap.png.
 
 🌳 Phylogenomic Tree construction:
+    
     • run phylogenic_tree.sh script
 
  Visualize the resulting .treefile using iTOL.
