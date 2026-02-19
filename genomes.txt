@@ -1,0 +1,6 @@
+name	contigs_db_path
+Ecoli_K12	Ecoli_K12.db
+Ecoli_O157	Ecoli_O157.db
+Ecoli_RM6927	Ecoli_RM6927.db
+Ecoli_TW08637	Ecoli_TW08637.db
+Ecoli_UTI89	Ecoli_UTI89.db

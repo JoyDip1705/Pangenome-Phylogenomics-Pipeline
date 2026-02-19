@@ -1,0 +1,24 @@
+# creating an environment
+conda create -n anvio-9 python=3.10
+
+# activate the environment
+conda activate anvio-9
+
+# installing dependent packages
+conda install -c conda-forge -c bioconda \
+hmmer prodigal blast diamond fasttree muscle \
+samtools bwa bedtools sqlite nodejs mcl trnascan-se seqkit
+
+# download anvi'o version 9
+curl -L https://github.com/merenlab/anvio/releases/download/v9/anvio
+9.tar.gz \
+        --output anvio-9.tar.gz
+
+# installing anvi'o
+pip install anvio-9.tar.gz
+
+# checking successful installation of anvi'o
+anvi-self-test --suite mini
+
+# creating database
+anvi-setup-ncbi-cogs #creating a database
