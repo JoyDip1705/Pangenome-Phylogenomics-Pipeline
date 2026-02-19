@@ -1,4 +1,5 @@
-Pangenome & Phylogenomics Pipeline
+Pangenome & Phylogenomics Pipeline:
+
 This repository contains a complete workflow for performing pangenome analysis and phylogenomic reconstruction of Escherichia coli strains using anvi’o and IQ-TREE.
 
 🧬 Workflow Overview
