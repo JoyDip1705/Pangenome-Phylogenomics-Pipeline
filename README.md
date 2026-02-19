@@ -10,9 +10,9 @@ This repository contains a complete workflow for performing pangenome analysis a
 
 🛠 Prerequisites
 Ensure you have the following installed:
-   • anvi'o (v7.1 or later recommended)
-   • IQ-TREE
-   • Python 3.x with libraries: pandas, seaborn, matplotlib
+     • anvi'o (v7.1 or later recommended)
+     • IQ-TREE
+     • Python 3.x with libraries: pandas, seaborn, matplotlib
 
 🚀 Step-by-Step Execution
 Step 1: Data Preparation
@@ -22,22 +22,22 @@ Place your NCBI genome files (.fna) in a folder named genomes/.
 
 Step 2: Clean FASTA Headers
 Simplify headers for anvi'o compatibility.
-  • run clean_header.sh script
+    • run clean_header.sh script
 
 Step 3: Create Contigs Databases
-  • run contig_db.sh script
+    • run contig_db.sh script
 
 Step 4: Gene Annotation
-  • run annotation.sh script
+    • run annotation.sh script
 
 Step 5: Pangenome, Presence/Absence & Matrix Generation and Visualization
-  • run pangenome.sh script
+    • run pangenome.sh script
 
 Summary Statistics & Heatmap
-  • Run python summary.py for core/accessory counts and python heatmap.py to generate pangenome_heatmap.png.
+    • Run python summary.py for core/accessory counts and python heatmap.py to generate pangenome_heatmap.png.
 
 🌳 Phylogenomic Tree construction
-  • run phylogenic_tree.sh script
+    • run phylogenic_tree.sh script
 
  Visualize the resulting .treefile using iTOL.
 
